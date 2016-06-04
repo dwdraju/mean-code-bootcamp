@@ -5,6 +5,3 @@ for(obj in nameObj){
 	new_array.push([obj,nameObj[obj]]);
 }
 console.log(new_array);
-
-
-console.log(Math.abs(2.3))
