@@ -1,7 +1,5 @@
 var bmi = function(weight, height){
 	cal_bmi = weight/(height*height);
-	console.log(cal_bmi);
-
 	switch(true){
 		case (cal_bmi<18.5):
 			return "Your BMI is " + cal_bmi + ". Its underweight";
